@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    margin-top: 100px;
+}
+#um img{
+    border: black 1px solid;
+    position: absolute;
+    top: 10px;
+    left:15px;
+    z-index: 1;
+}
+#dois img{
+    border: black 1px solid;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    z-index: 2;
+}
+#tres img{
+    border: black 1px solid;
+    position: absolute;
+    top: 70px;
+    left: 70px;
+    z-index: 3;
+}
