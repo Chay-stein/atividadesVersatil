@@ -1,0 +1,16 @@
+#box {
+    width:700px;
+    padding:20px;
+    margin:0 auto;
+    background-color:green;
+    text-align:justify;
+
+}
+p{
+    color:white;
+}
+#box img{
+    float:left;
+    margin:20px 10px 0px 0px;
+    height:300px;
+}

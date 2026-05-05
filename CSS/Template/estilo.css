@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+a{
+    text-decoration: none;
+}
+h1{
+    font-family: "regular" , Arial, Helvetica, sans-serif;
+    color: blue;
+    margin-bottom: 20px;
+}
+p{
+    font-family: "regular", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    
+
+}

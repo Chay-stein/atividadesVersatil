@@ -2,52 +2,121 @@
     margin:0;
     padding: 0;
 }
-
-body{
-    background-color: rgb(16, 52, 53);
+a {
+    text-decoration: none;
 }
 
-#principal{
-    width: 460px;
+h1 {
+    font-family: "regular", Arial, Helvetica, sans-serif;
+    color: #002c62;
+    margin-bottom: 20px;
+}
+
+p {
+    font-family: "regular", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: justify;
+}
+
+img {
+    border: none;
+    width: 50%;
+    height: 20%;
+}
+
+@font-face {
+    font-family: "regular";
+    src: url(./font/regular.ttf);
+}
+
+/* ===== TOPO ===== */
+
+#topo {
+    width: 100%;
+    height: 100px;
+}
+
+.logo {
+    width: 900px;
     height: 700px;
-    margin: 0 ;
-    padding: 20px;
-    background-image:url("../imagens/imagem.jpg");
+    margin: 0 auto;
 }
 
-h1{
+.logo img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+/* ===== NAV ===== */
+
+nav {
+    width: 100%;
+    height: 50px;
     text-align: center;
-    font-family: "arial black", Gadget, sans-serif;
-    color:rgb(144, 206, 185);
-    margin-bottom: 40px;
+    background: #004694;
 }
 
-p{
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(23, 209, 85);
-    text-align:justify;
-    margin-bottom: 50px;
-    }
+nav a {
+    color: #FFF;
+    font-family: "regular", Arial, Helvetica, sans-serif;
+    margin: 0 35px;
+    line-height: 50px;
+}
 
-    a{
-        font-family: 'Courier New', Courier, monospace, "Kozuka Gothic pro H";
-        font-size: 36PX;
-        font-weight: bold;
-        color: aliceblue;
-        text-decoration: none;
-        background-color: blue;
-        transition: background-color 0.3s, color 0.3s;
-        padding: 10px 50px ;
-    }
-    a:houver{
-        background-color: darkgoldenrod;
-        color: blue;
-    }
+nav a:hover {
+    color: #ac9e5e;
+}
 
-    ul{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 15px;
-    }
+nav .ativo {
+    color: #ac9e5e;
+}
+/* ===== CONTAINER ===== */
+
+#container {
+    width: 1000px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.box {
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    background-color: #d8d9dd;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+/* ===== FOOTER ===== */
+
+footer {
+    position: absolute;
+    margin-bottom: 0;
+    margin-top: 20px;
+    width: 100%;
+    height: 140px;
+    background: #004694;
+}
+
+#rodape {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#t_rodape {
+    width: 350px;
+    position: relative;
+    margin: 0 auto;
+    top: 40px;
+    color: #FFF;
+    text-align: center;
+}
+
+#t_rodape a {
+    color: white;
+}
+#t_rodape a:houver{
+color: #ac9e5e;
+}
+    

@@ -1,0 +1,15 @@
+#box{
+    width: 200px;
+    height: 200px;
+    background-color:blue;
+    border-style: dashed;
+    border-color: rgb(11, 87, 133);
+    border-width: 10px;
+}
+#box2{
+    width: 200px;
+    height: 200px;
+    background:rgb(182, 169, 151);
+    border:rgba(222, 184, 135, 0.298);
+    border-radius: 5px 20px 10px 40px;
+}
