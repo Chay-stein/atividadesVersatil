@@ -7,39 +7,33 @@
   </head>
   <body>
     <script>
+      //DECLARAÇÃO DE VARIAVEIS
       const ANO_FAB=2026;
       let nome = "Maria";
       let idade = 35;
-      document.write("Nome: ", nome,"<br>");
-      document.write("Idade:", idade,"<br>");
+      document.write("<b>Nome:</b> ", nome,"<br>");
+      document.write("<b>Idade:</b>", idade,"<br>");
       let cidadeDeNascimento = "São Paulo";
       let filiação = "Joana Couto Stein";
       let escolaridade = "Graduação Completa";
-      document.write("Cidade de nascimento:", cidadeDeNascimento,"<br>");
-      document.write("Filiação:", filiação, "<br>");
-      document.write("Escolaridade: ", escolaridade, "<br>")
-
+      document.write("<b>Cidade de nascimento:</b>", cidadeDeNascimento,"<br>");
+      document.write("<b>Filiação:</b>", filiação, "<br>");
+      document.write("<b>Escolaridade:</b> ", escolaridade, "<br>")
+      document.write("<br> <hr>")
      
       let a = 5;
       let b = 5;
       let soma = a + b;
-      document.write("Total: ", a + b, "<br>")
+      document.write("<b>Total:</b> ", a + b, "<br>")
+      document.write("<br>")
 
       let c = 8;
       c++;
       c--;
-      document.write("Exemplo ++ && -- C = ", c," Antes do incremento: ", c++ ," Depois do incremento ", c--, "<br>")
-
+      document.write("<b>Exemplo</b> ++ && -- C = ", c," Antes do incremento: ", c++ ," Depois do incremento ", c--, "<br>")
+      document.write("<br>")
     
-    var anoAtual=2026;
-    var anoNasc=2010;
-    var idadeHb=anoAtual-anoNasc
-    if(idadeHb >= 18){
-    document.write("Permitido Adquirir CNH pois sua idade é: ", idadeHb);
-    }else{
-      document.write("Negado Ainda!!! sua idade é: ", idadeHb);
-    }
-
+     document.write("<b>COMPARAÇÕES LOGICAS</b>","<br>")//COMPARAÇÕES LOGICAS
     let f = 10;
     let g = 20;
     document.write("f == g ", f == g, "<br>");
@@ -54,23 +48,18 @@
     let i = false;
     document.write(h && i, "<br>");
     document.write(h || i, "<br>");
-    document.write(!h, "<br>");
-    
+    document.write(!h);
+    document.write("<br> <hr>")
+
     let primeiroNome ="Chaene";
     let ultimoNome = "Stein";
     let nomeCompleto = primeiroNome + " " + ultimoNome;
-    document.write("Primeiro Nome: " , primeiroNome , "<br>");
-    document.write("Ultimo Nome: " , ultimoNome ,  "<br>");
+    document.write("<b>Primeiro Nome:</b> " , primeiroNome , "<br>");
+    document.write("<b>Ultimo Nome:</b>" , ultimoNome,  "<br>");
+    document.write("<br> <hr>")
+    
 
-    let idadeMaior = 18;
-     if (outraIdade >= 18) {
 
-      document.write("Maior de Idade " , idadeMaior);
-    } else {
-      document.write("Menor de Idade " , idadeMaior)
-
-    }
-      
     </script>
   </body>
 </html>
